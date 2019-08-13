@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman documentation</title>
+</head>
+<body>
+    <div>
+        <h3>You can get images from this url</h3>
+        <p>{sever_url}/image/[id]</p>
+    </div>
+
+    <br/>
+    <div>
+        <h3>You can create your own game from this url</h3>
+        <p>{server_url}/creategame?word=[word]</p>
+        <p>Which will return an id for others to play the game</p>
+    </div>
+
+    <br/>
+    <div>
+        <h3>You can create a game, with or without an id, if no id is provided you will get a random Icelandic word</h3>
+        <p>{server_url}/newgame?game_id=[game_id]</p>
+
+    </div>
+</body>
+</html>
