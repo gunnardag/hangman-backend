@@ -11,7 +11,9 @@ pip install -r requirements.txt
 ```
 
 ### to run
+run python models.py to generate the database
 ```
+python models.py
 export FLASK_APP=app.py
 flask run
 ```
